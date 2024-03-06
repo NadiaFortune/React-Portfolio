@@ -1,6 +1,6 @@
 export default function HeaderSection () {
     return  (
-        <section id="headerSection" className="headerSection">
+        <section id="headerSection" className="headerSection col-md-8 col-md-4">
             <div className="headeer--section--content--box">
                 <div  className="header--section--content">
                     <p className="section--title">Hey, I'm Nadia</p>
@@ -11,15 +11,17 @@ export default function HeaderSection () {
                         Developer
                     </h1>
                     <p className="header--setion-description">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                        <br /> Praesentium adipisci laborum recusandae.
+                        Bringing your website to life.
+                        <br /> Making your business stand out.
                         </p>
+                        <button className="btn btn-primary">Contact Me</button>
+                        <div className="header--section--img w-55 p-0">
+                <img src="/Nadia2.png" alt="" />
             </div>
-            <button className="btn btn-primary">Contact Me</button>
+                </div>
+           
             </div>
-            <div className="header--section--img w-25 p-3" >
-                <img src="/nadia-7_pp-3.jpg" alt="" />
-            </div>
+        
             
         </section>
     )

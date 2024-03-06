@@ -10,8 +10,8 @@ import './Pages/Home/MySkills.jsx'
 import './Pages/Home/NavBar.jsx'
 import './Pages/Home/ProjectGallery.jsx'
 import './Pages/Home/Testimonials.jsx'
-import 'bootstrap/dist/css/bootstrap.min.css'
-import * as bootstrap from 'bootstrap'
+
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
