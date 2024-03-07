@@ -1,7 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
-import './index.css'
 import './Pages/Home/Header.jsx'
 import './Pages/Home/AboutMe.jsx'
 import './Pages/Home/Contact.jsx'
@@ -19,3 +18,16 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   </React.StrictMode>,
 )
 
+export default function Home() {
+  return (
+    <>
+      <HeroSection />
+      <MySkills />
+      <AboutMe />
+      <MyPortfolio />
+      <Testimonial />
+      <ContactMe />
+      <Footer />
+    </>
+  );
+}
