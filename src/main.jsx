@@ -1,33 +1,34 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './Pages/Home/Header.jsx'
-import './Pages/Home/AboutMe.jsx'
-import './Pages/Home/Contact.jsx'
-import './Pages/Home/Footer.jsx'
-import './Pages/Home/MySkills.jsx'
-import './Pages/Home/NavBar.jsx'
-import './Pages/Home/ProjectGallery.jsx'
-import './Pages/Home/Testimonials.jsx'
+import './App.jsx'
+import HeaderSection from './Pages/Home/Header.jsx'
+// import AboutMe from './Pages/Home/AboutMe.jsx'
+// import Contact from './Pages/Home/Contact.jsx'
+// import Footer from './Pages/Home/Footer.jsx'
+// import MySkills from './Pages/Home/MySkills.jsx'
+// import ProjectGallery from './Pages/Home/ProjectGallery.jsx'
+// import Testimonials from './Pages/Home/Testimonials.jsx'
 
 
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>,
-)
+  </React.StrictMode>
+);
+
 
 export default function Home() {
   return (
     <>
-      <HeroSection />
+      <HeaderSection />
       <MySkills />
       <AboutMe />
       <MyPortfolio />
       <Testimonial />
       <ContactMe />
-      <Footer />
+      <Footer /> */
     </>
   );
 }
